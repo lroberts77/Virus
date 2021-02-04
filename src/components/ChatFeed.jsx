@@ -3,9 +3,9 @@ import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 
 const ChatFeed = (props) => {
-    const { chats, activechat, userName, messages } = props;
+    const { chats, activeChat, userName, messages } = props;
 
-    const chat = chats && chats[activechat];
+    const chat = chats && chats[activeChat];
 
     const renderMessages = () => {
         const keys = Object.keys(messages)
@@ -44,7 +44,7 @@ const ChatFeed = (props) => {
             {renderMessages()}
             <div style={{ height: '100px'}} />
             <div className="message-form-container">
-                <MessageForm { ...props } chatId={activechat} />
+                <MessageForm { ...props } chatId={activeChat} />
             </div>
         </div>
     )
