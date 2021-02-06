@@ -1,10 +1,15 @@
+import { useState } from "react";
+import { sendMessage, isTyping } from "react-chat-engine";
+
+
 const MessageForm = () => {
+    const [value, setvalue] = useState('')
 
     const handleSubmit = () => {
 
     }
 
-    const handleChange = () => {
+    const handleChange = (event) => {
 
     }
     return (
@@ -14,6 +19,7 @@ const MessageForm = () => {
                 placeholder="send a amessage"
                 value={value}
                 onChange={handleChange}
+                onSubmit={handleSubmit}
                 />
             </form>
         </div>
