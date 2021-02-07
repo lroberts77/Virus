@@ -14,3 +14,15 @@
     overflow: scroll;
     background-color: rgb(240, 240, 240);
   }
+
+  .chat-title-container {
+      width: clac(100% - 36px);
+      padding: 18px;
+      text-align: center;
+  }
+
+  .chat-title {
+    color: #7554a0;
+    font-weight: 800;
+    font-size: 24px;
+  }
