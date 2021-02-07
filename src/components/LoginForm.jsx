@@ -5,7 +5,7 @@ const LoginForm = () => {
     const [username, setusername] = useState('');
     const [password, setpassword] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
 
         const authObject = { 'Project-ID': "61412d7d-7625-4be4-9d03-3f184e5217e9", 'User-Name': username, 'User-Secret': password }
@@ -18,7 +18,7 @@ const LoginForm = () => {
             localStorage.setItem('password', password);
 
             window.location.reload();
-            
+
         } catch (error) {
             
         }
@@ -49,3 +49,5 @@ const LoginForm = () => {
     )
     
 }
+
+export default LoginForm;
