@@ -16,7 +16,7 @@
   }
 
   .chat-title-container {
-      width: clac(100% - 36px);
+      width: calc(100% - 36px);
       padding: 18px;
       text-align: center;
   }
@@ -35,15 +35,15 @@
   }
 
   .message-row {
-      float: left;
-      width: 100%;
-      display: flex;
-      margin-left: 18px;
+    float: left;
+    width: 100%;
+    display: flex;
+    margin-left: 18px;
   }
-
+  
   .message-block {
-      width: 100%;
-      display: inline-block;
+    width: 100%;
+    display: inline-block;
   }
 
   .message-avatar {
@@ -57,15 +57,22 @@
     background-size: 48px;
   }
 
+  .message {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    max-width: 60%;
+  }
+
   .message-image {
-      margin-right: 18px;
-      object-fit: cover;
-      border-radius: 6px;
-      height: 30vw;
-      max-height: 200px;
-      max-width: 200px;
-      min-height: 100px;
-      min-width: 100px;
+    margin-right: 18px;
+    object-fit: cover;
+    border-radius: 6px;
+    height: 30vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 100px;
+    min-width: 100px;
   }
 
   .read-receipts {
