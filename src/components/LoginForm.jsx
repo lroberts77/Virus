@@ -4,6 +4,7 @@ import axios from 'axios';
 const LoginForm = () => {
     const [username, setusername] = useState('');
     const [password, setpassword] = useState('');
+    const [error, seterror] = useState('')
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -20,15 +21,10 @@ const LoginForm = () => {
             window.location.reload();
 
         } catch (error) {
-            
+            seterror('incorrect username or password.') 
         }
-
-
         //if passes => logged in
         // else error => try username/password ......
-
-
-
     }
 
     return (
@@ -43,6 +39,7 @@ const LoginForm = () => {
                             <span className="button-text">INFECT</span>
                         </button>
                     </div>
+                    <h2 className="error">{error}</h2>
                 </form>
             </div> 
         </div>
