@@ -40,7 +40,7 @@ const LoginForm = () => {
                     <input type="password" value={password} onChange={(e) => setpassword(e.target.value)} className="input" placeholder="Password" required />
                     <div align="center">
                         <button type="submit" className="button">
-                            <span>CHAT</span>
+                            <span className="button-text">INFECT</span>
                         </button>
                     </div>
                 </form>
