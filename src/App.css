@@ -21,6 +21,12 @@
       text-align: center;
   }
 
+  .btn-signout {
+    position: relative;
+    align-self: flex-end;
+    left: 55%;
+  }
+
   .chat-title {
     color: #7554a0;
     font-weight: 800;

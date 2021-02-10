@@ -3,7 +3,7 @@ import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 
 const ChatFeed = (props) => {
-    const { chats, activeChat, userName, messages } = props;
+    const { chats, activeChat, userName, messages} = props;
 
     const chat = chats && chats[activeChat];
 
@@ -15,6 +15,10 @@ const ChatFeed = (props) => {
             style={{ float: isMyMessage ? 'right' : 'left',  backgroundImage: person.person.avatar && `url(${person.person.avatar})`, }}
             />
         ))
+
+    const handleClick = () => {
+
+    }
 
     const renderMessages = () => {
         const keys = Object.keys(messages)
@@ -47,6 +51,7 @@ const ChatFeed = (props) => {
     return (
         <div className="chat-feed">
             <div className="chat-title-container">
+                <button className="btn-signout" onClick={handleClick}>sign out</button>
                 <div className="chat-title">{chat?.title}</div>
                 <div className="chat-subtitle">{chat.people.map((person) => ` ${person.person.username}`)}</div>
             </div>
