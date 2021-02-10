@@ -17,7 +17,10 @@ const ChatFeed = (props) => {
         ))
 
     const handleClick = () => {
+        localStorage.setItem('username', '');
+        localStorage.setItem('password', '');
 
+        window.location.reload()
     }
 
     const renderMessages = () => {
