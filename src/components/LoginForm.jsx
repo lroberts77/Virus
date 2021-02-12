@@ -32,8 +32,8 @@ const LoginForm = () => {
             <div className="form">
                 <h1 className="title">Virus²</h1>
                 <form onSubmit={handleSubmit}>
-                    <input type="text" value={username} onChange={(e) => setusername(e.target.value)} className="input" placeholder="Username" required />
-                    <input type="password" value={password} onChange={(e) => setpassword(e.target.value)} className="input" placeholder="Password" required />
+                    <input type="text" value={username} onChange={(e) => setusername(e.target.value)} className="input-form" placeholder="Username" required />
+                    <input type="password" value={password} onChange={(e) => setpassword(e.target.value)} className="input-form" placeholder="Password" required />
                     <div align="center">
                         <button type="submit" className="button">
                             <span className="button-text">INFECT</span>
