@@ -35,6 +35,15 @@
     bottom: 1px;
   }
 
+  .ce-danger-button {
+    background-color: white !important;
+    border-radius: 22px !important;
+  }
+
+  .ce-settings {
+    background-color: white !important;
+  }
+
   .chat-feed {
     height: 100%;
     width: 100%;
