@@ -7,6 +7,17 @@
   }
 
   /* CUSTOM FEED */
+  
+  .ce-active-chat-card {
+    background-color: black!important;
+    color: white;
+    /* border: 4px solid #cabcdc !important; */
+    border-radius: 0px !important;
+  }
+
+  .ce-chat-subtitle-text {
+    color: white !important;
+  }
 
   .chat-feed {
     height: 100%;
