@@ -28,6 +28,13 @@
     border: 1px solid black !important;
   }
 
+  .ce-primary-button {
+    border-radius: 50% !important;
+    background-color: black !important;
+    position: relative;
+    bottom: 1px;
+  }
+
   .chat-feed {
     height: 100%;
     width: 100%;
