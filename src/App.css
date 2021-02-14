@@ -49,6 +49,16 @@
     border: 1px solid #3b2a50 !important;
   }
 
+  .ce-autocomplete-options {
+    border-radius: 6px !important;
+    border: 1px solid black !important;
+    background-color: white !important;
+  }
+
+  .ce-chat-avatars-row {
+    display: none !important;
+  }
+
   .chat-feed {
     height: 100%;
     width: 100%;
