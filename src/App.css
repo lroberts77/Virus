@@ -19,6 +19,15 @@
     color: white !important;
   }
 
+  .ce-chat-form-container {
+    padding-bottom: 20px !important;
+  }
+  
+  .ce-text-input {
+    border-radius: 6px !important;
+    border: 1px solid black !important;
+  }
+
   .chat-feed {
     height: 100%;
     width: 100%;
