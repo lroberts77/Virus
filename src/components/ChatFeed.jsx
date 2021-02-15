@@ -1,7 +1,7 @@
 import MessageForm from './MessageForm';
 import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
-import { Button } from '@material-ui/core';
+// import { Button } from '@material-ui/core';
 
 
 const ChatFeed = (props) => {
@@ -58,7 +58,7 @@ const ChatFeed = (props) => {
     return (
         <div className="chat-feed">
             <div className="chat-title-container">
-                <Button className="btn-signout" variant="contained" color="white" onClick={handleClick}>sign out</Button>
+                <button className="btn-signout" variant="contained" color="white" onClick={handleClick}>sign out</button>
                 <div className="chat-title">{chat?.title}</div>
                 <div className="chat-subtitle">{chat.people.map((person) => ` ${person.person.username}`)}</div>
             </div>
