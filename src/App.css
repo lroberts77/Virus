@@ -97,13 +97,14 @@
   .btn-signout {
     position: relative;
     top: 1rem;
-    left: 85%;
+    left: 87%;
     font-size: 10px;
     background-color: black;
     color: white;
     padding: 5px;
     border-radius: 15%;
     box-shadow: 0 0 10px #23e000, 0 0 40px #23e000, 0 0 80px #23e000;
+    z-index: 1;
   }
 
   @media only screen and (max-width: 600px) {
