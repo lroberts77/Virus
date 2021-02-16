@@ -24,5 +24,13 @@ $ npm install
 ```
 
 ## <a name="Usage">Usage</a>
+* Open a terminal
+```shell
+$ cd virus
+$ npm start
+```
+If a tab doesn't open with the virus app running, open a new tab and type in http://localhost:3000 in the url bar and press enter.
+
+Fill in the form and press submit to create a post which will be displayed top left once it has been saved to mongdDB. If you want to edit your post click on the three dots in the top right corner of your post which will populate the form with your postdata then edit and submit to complete. You can also like posts and delete posts by clicking on like and delete.
 
 ## <a name="Improvements">Improvements</a>
