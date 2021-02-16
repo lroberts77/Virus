@@ -14,6 +14,14 @@
 ## <a name="Project">Project Direction</a>
 
 ## <a name="Install">Installation</a>
+The deployed live app is [HERE](https://virus2.netlify.app/)
+
+* To clone the repo
+```shell
+$ git clone git@github.com:lroberts77/virus.git
+$ cd virus
+$ npm install
+```
 
 ## <a name="Usage">Usage</a>
 
