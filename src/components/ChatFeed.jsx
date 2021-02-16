@@ -1,10 +1,13 @@
 import MessageForm from './MessageForm';
 import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
+import { CircularProgress } from '@material-ui/core';
+import useStyles from './chatstyles';
 // import { Button } from '@material-ui/core';
 
 
 const ChatFeed = (props) => {
+    const classes = useStyles();
     const { chats, activeChat, userName, messages} = props;
 
     const chat = chats && chats[activeChat];
@@ -53,7 +56,7 @@ const ChatFeed = (props) => {
     }
 
     // if there is no chat return loading
-    if(!chat) return 'Loading...';
+    if(!chat) return <CircularProgress className={classes.progress} />;
 
     return (
         <div className="chat-feed">
