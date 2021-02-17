@@ -2,7 +2,6 @@ import { ChatEngine } from 'react-chat-engine';
 import './App.css';
 import ChatFeed from './components/ChatFeed';
 import LoginForm from './components/LoginForm';
-// import dotenv from 'dotenv';
 
 const App = () => {
 
@@ -11,7 +10,7 @@ const App = () => {
     return (
         <ChatEngine
         height="100vh"
-        projectID=
+        projectID={`${process.env.REACT_APP_ID}`}
         userName={localStorage.getItem("username")}
         userSecret={localStorage.getItem("password")}
         renderChatFeed={(chatAppProps) => <ChatFeed { ... chatAppProps } />}
