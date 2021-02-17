@@ -9,7 +9,7 @@ const LoginForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        const authObject = { 'Project-ID': "61412d7d-7625-4be4-9d03-3f184e5217e9", 'User-Name': username, 'User-Secret': password }
+        const authObject = { 'Project-ID': `${process.env.REACT_APP_ID}`, 'User-Name': username, 'User-Secret': password }
 
         try {
             //username | password => chatengine => return messages

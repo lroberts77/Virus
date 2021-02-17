@@ -5,6 +5,8 @@
 <img src="https://api.netlify.com/api/v1/badges/b804b10a-4a90-45f2-8148-166826a9f41b/deploy-status" />
 </div>
 
+### Technologies: React, Node.js, JavaScript, HTML, CSS, Material-UI, Axios, npm, react-chat-engine
+
 ## Index
 * [Project Direction](#Project)
 * [Installation](#Install)
@@ -12,6 +14,7 @@
 * [Improvemets](#Improvements)
 
 ## <a name="Project">Project Direction</a>
+I was inetersted in the process of creating a chat app, although react-chat-engine has alot of functionality built in I was still able to destructure certain parts of the app and rebuild and customize to my liking. I learned alot during the course of making this app including using Material-ui for size repsonsive styling, using .env and localStorage in react,  This has inspired me to get a deeper understanding of the mern stack and to keep learning through trying new projects and ideas.
 
 ## <a name="Install">Installation</a>
 The deployed live app is [HERE](https://virus2.netlify.app/)

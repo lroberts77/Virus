@@ -3,7 +3,6 @@ import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 import { CircularProgress } from '@material-ui/core';
 import useStyles from './chatstyles';
-// import { Button } from '@material-ui/core';
 
 
 const ChatFeed = (props) => {
